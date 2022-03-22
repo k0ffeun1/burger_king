@@ -308,11 +308,11 @@ body {
         padding-bottom: 25%;
     }
     .portraits__content {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .portraits__img1 {
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .portraits__img {
         width: 40%;
@@ -320,6 +320,8 @@ body {
     .portraits__textblock {
         margin-right: 0;
         margin-bottom: 20px;
+        order: -1;
+        flex-basis: 100%;
     }
     .portraits__textblock-title {
         margin-top: 0;
